@@ -1,0 +1,77 @@
+# Цены продажи модовых предметов.
+# Ключ — точный namespace:id предмета (регистр не важен).
+# price — сколько игрок получает за 1 штуку.
+items:
+  # ─── Create ──────────────────────────────────────────────
+  create:andesite_alloy:           { price: 80,    name: "Андезитовый сплав" }
+  create:zinc_ingot:               { price: 80,    name: "Слиток цинка" }
+  create:brass_ingot:              { price: 152,   name: "Слиток латуни" }
+  create:cogwheel:                 { price: 180,   name: "Шестерня" }
+  create:large_cogwheel:           { price: 300,   name: "Большая шестерня" }
+  create:shaft:                    { price: 120,   name: "Вал" }
+  create:iron_sheet:               { price: 140,   name: "Железный лист" }
+  create:brass_sheet:              { price: 240,   name: "Латунный лист" }
+  create:electron_tube:            { price: 500,   name: "Электронная трубка" }
+  create:precision_mechanism:      { price: 1500,  name: "Точный механизм" }
+  create:blaze_cake:               { price: 800,   name: "Пирожное из огня" }
+  create:crushed_raw_copper:       { price: 60,    name: "Дроблёная медная руда" }
+  create:crushed_raw_iron:         { price: 60,    name: "Дроблёная железная руда" }
+  create:crushed_raw_gold:         { price: 30,    name: "Дроблёная золотая руда" }
+  # ─── Immersive Engineering ───────────────────────────────
+  immersiveengineering:ingot_steel:             { price: 100,  name: "Стальной слиток" }
+  immersiveengineering:ingot_electrum:          { price: 180,  name: "Слиток электрума" }
+  immersiveengineering:coal_coke:               { price: 80,   name: "Коксовый уголь" }
+  immersiveengineering:cokebrick:               { price: 152,  name: "Коксовый кирпич" }
+  immersiveengineering:treated_wood_horizontal: { price: 92,   name: "Обработанные доски" }
+  immersiveengineering:stick_treated:           { price: 52,   name: "Обработанная палка" }
+  immersiveengineering:hemp_fiber:              { price: 40,   name: "Волокно пеньки" }
+  immersiveengineering:wire_copper:             { price: 220,  name: "Медная проволока" }
+  immersiveengineering:wire_electrum:           { price: 500,  name: "Проволока электрума" }
+  immersiveengineering:wire_steel:              { price: 352,  name: "Стальная проволока" }
+  immersiveengineering:component_iron:          { price: 200,  name: "Железный мех. компонент" }
+  immersiveengineering:component_steel:         { price: 400,  name: "Стальной мех. компонент" }
+  immersiveengineering:plate_steel:             { price: 252,  name: "Стальная пластина" }
+  # ─── Mekanism ────────────────────────────────────────────
+  mekanism:ingot_osmium:             { price: 152,   name: "Слиток осмия" }
+  mekanism:ingot_steel:              { price: 132,   name: "Стальной слиток (Mek)" }
+  mekanism:salt:                     { price: 40,    name: "Соль" }
+  mekanism:fluorite_gem:             { price: 200,   name: "Флюорит" }
+  mekanism:hdpe_sheet:               { price: 600,   name: "ПЭВП лист" }
+  mekanism:energy_tablet:            { price: 900,   name: "Энергетическая таблетка" }
+  mekanism:alloy_infused:            { price: 700,   name: "Насыщенный сплав" }
+  mekanism:alloy_reinforced:         { price: 2000,  name: "Усиленный сплав" }
+  mekanism:alloy_atomic:             { price: 6000,  name: "Атомный сплав" }
+  mekanism:basic_control_circuit:    { price: 452,   name: "Базовая схема управления" }
+  mekanism:advanced_control_circuit: { price: 1500,  name: "Продвинутая схема управления" }
+  mekanism:elite_control_circuit:    { price: 5000,  name: "Элитная схема управления" }
+  mekanism:ultimate_control_circuit: { price: 18000, name: "Ультимативная схема" }
+  mekanism:steel_casing:             { price: 900,   name: "Стальной корпус" }
+  # ─── Applied Energistics 2 ───────────────────────────────
+  ae2:certus_quartz_crystal:          { price: 100,  name: "Кертусовый кварц" }
+  ae2:charged_certus_quartz_crystal:  { price: 252,  name: "Заряженный кертусовый кварц" }
+  ae2:fluix_crystal:                  { price: 300,  name: "Флюикс-кристалл" }
+  ae2:fluix_dust:                     { price: 180,  name: "Флюикс-пыль" }
+  ae2:fluix_pearl:                    { price: 352,  name: "Флюикс-жемчуг" }
+  ae2:ender_dust:                     { price: 200,  name: "Пыль Эндера" }
+  ae2:printed_silicon:                { price: 352,  name: "Печатный кремний" }
+  ae2:blank_pattern:                  { price: 0,    name: "Пустой шаблон" }
+  ae2:logic_processor:                { price: 1000, name: "Логический процессор" }
+  ae2:calculation_processor:          { price: 1500, name: "Вычислительный процессор" }
+  ae2:engineering_processor:          { price: 3000, name: "Инженерный процессор" }
+  ae2:cell_component_1k:              { price: 1200, name: "1k компонент хранилища ME" }
+  ae2:cell_component_4k:              { price: 5000, name: "4k компонент хранилища ME" }
+  ae2:cell_component_16k:             { price: 20000, name: "16k компонент хранилища ME" }
+  # ─── Draconic Evolution ──────────────────────────────────
+  draconicevolution:draconium_ingot:           { price: 1200,   name: "Слиток Драконита" }
+  draconicevolution:awakened_draconium_ingot:  { price: 10000,  name: "Пробуждённый Драконит" }
+  draconicevolution:draconium_core:            { price: 25000,  name: "Ядро Драконита" }
+  draconicevolution:wyvern_core:               { price: 20000,  name: "Ядро Виверна" }
+  draconicevolution:awakened_core:             { price: 100000, name: "Ядро Дракона" }
+  draconicevolution:chaotic_core:              { price: 400000, name: "Хаотическое ядро" }
+  # ─── Industrial Foregoing ────────────────────────────────
+  industrialforegoing:plastic:               { price: 352,   name: "Пластик" }
+  industrialforegoing:machine_frame_pity:    { price: 600,   name: "Простейшая рама машины" }
+  industrialforegoing:machine_frame_simple:  { price: 1500,  name: "Простая рама машины" }
+  industrialforegoing:machine_frame_advanced: { price: 6000, name: "Продвинутая рама машины" }
+  industrialforegoing:machine_frame_supreme: { price: 25000, name: "Верховная рама машины" }
+  industrialforegoing:pink_slime:            { price: 252,   name: "Розовая слизь" }

@@ -1,0 +1,27 @@
+name: VoidRpModSell
+version: ${version}
+main: ru.voidrp.modsell.ModSellPlugin
+api-version: "1.21"
+depend:
+  - Vault
+softdepend:
+  - VoidRpGameSync
+
+commands:
+  modsell:
+    description: Продать модовый предмет из руки
+    aliases: [мпродать, мпродай]
+    usage: /modsell [количество]
+  msellall:
+    description: Продать все подходящие предметы из инвентаря
+    aliases: [мпродатьвсё]
+  msellinfo:
+    description: Узнать цену предмета в руке
+    aliases: [мценник]
+  msellreload:
+    description: Перезагрузить конфиг ModSell
+    permission: voidrp.modsell.admin
+
+permissions:
+  voidrp.modsell.admin:
+    default: op
